@@ -32,7 +32,10 @@ const Sobre = () => {
                 <h1 className="text-3xl font-bold text-center text-[#001b5e]">Sobre o Projeto</h1>
                 {/* <h2 className="text-xl mt-5 ml-40 font-bold  text-[#001b5e]">Monitoramento dos Resíduos Plásticos no Oceano</h2> */}
                 <p className="text-lg text-center py-8 "> 
-                Propomos um projeto abrangente que combina monitoramento dos resíduos plásticos nos oceanos  utilizando arduino com educação ambiental nas escolas. Sensores infravermelhos serão instalados em barcos pesqueiros para detectar plásticos na superfície do oceano, fornecendo dados valiosos sobre as condições ambientais e mapeando áreas de concentração de resíduos. Paralelamente, um programa educacional incentivará a conscientização desde a infância, envolvendo os alunos na coleta de plásticos recicláveis, que serão vendidos a centros de reciclagem em parceria com as escolas. Os recursos obtidos serão reinvestidos em benefícios educacionais, promovendo uma cultura de responsabilidade ambiental desde cedo. A integração dessas iniciativas não apenas visa limpar os oceanos, mas também formar uma geração engajada na preservação ambiental, impulsionando uma economia circular e contribuindo para um futuro sustentável.
+                Propomos um projeto abrangente que combina monitoramento dos resíduos plásticos nos oceanos  utilizando arduino com educação ambiental nas escolas. Sensores infravermelhos serão instalados em barcos pesqueiros para detectar plásticos na superfície do oceano, fornecendo dados valiosos sobre as condições ambientais e mapeando áreas de concentração de resíduos. Paralelamente, um programa educacional incentivará a conscientização desde a infância, envolvendo os alunos na coleta de plásticos recicláveis, que serão vendidos a centros de reciclagem em parceria com as escolas.
+                </p>
+                <p className="text-lg text-center pb-8 "> 
+                Os recursos obtidos serão reinvestidos em benefícios educacionais, promovendo uma cultura de responsabilidade ambiental desde cedo. A integração dessas iniciativas não apenas visa limpar os oceanos, mas também formar uma geração engajada na preservação ambiental, impulsionando uma economia circular e contribuindo para um futuro sustentável.
                 </p>
                 
         </div>

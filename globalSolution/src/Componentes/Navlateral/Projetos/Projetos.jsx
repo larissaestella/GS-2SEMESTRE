@@ -19,7 +19,7 @@ const OceanPlasticDashboard = () => {
                 A poluição plástica nos oceanos é uma das maiores crises ambientais do nosso tempo. Milhões de toneladas de plástico entram nos mares anualmente, afetando gravemente a vida marinha, os ecossistemas e até mesmo a saúde humana. Este projeto tem como objetivo monitorar e conscientizar sobre a concentração de plástico em diferentes oceanos, oferecendo dados precisos e atualizados para pesquisadores, estudantes e o público em geral.
                 </p>
                 <p className="text-lg text-center "> 
-                Nossa iniciativa utiliza tecnologia de ponta para coletar e analisar amostras de água de várias partes dos oceanos Atlântico, Pacífico e Índico. Com essas informações, criamos dashboards interativos que exibem a concentração de plástico em cada oceano, permitindo uma visualização clara e compreensível dos dados. Além disso, o projeto visa educar e sensibilizar as futuras gerações sobre a importância da conservação marinha, promovendo atividades educativas em escolas e comunidades.
+                Nossa iniciativa utiliza tecnologia de ponta para coletar e analisar amostras de água de várias partes dos oceanos Atlântico, Pacífico e Índico. Com essas informações, criamos dashboards interativos que exibem a concentração de plástico em cada oceano, permitindo uma visualização clara e compreensível dos dados. 
                 </p>
             </div>
                 <div className="container mt-5 mb-20">
