@@ -29,7 +29,8 @@ function Contato() {
    }
 
     return (
-        <div id='contato' className="container mt-4">
+   
+        <div id='contato' className="container mt-4 ">
             <h1 className="py-4 text-center font-bold text-3xl">CONTATO</h1>
             <form onSubmit={submit} className="needs-validation" noValidate>
                 <div className="row mb-3 justify-content-center">

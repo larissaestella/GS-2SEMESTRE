@@ -13,7 +13,7 @@ const Login = () => {
 
     if (user && user.password === password) {
       // Login bem-sucedido
-      // Aqui você pode redirecionar o usuário para a página principal ou armazenar o token de autenticação
+      // redirecionar o usuário para a página principal ou armazenar o token de autenticação
       console.log('Login bem-sucedido');
     } else {
       // Credenciais inválidas
@@ -22,45 +22,49 @@ const Login = () => {
   };
 
   return (
-    <div className="flex items-center justify-center h-screen">
-      <form onSubmit={handleSubmit} className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
-        <h2 className="text-2xl mb-4 text-center">Login</h2>
-        {error && <p className="text-red-500 mb-4">{error}</p>}
-        <div className="mb-4">
-          <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="username">
-            Usuário
-          </label>
-          <input
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-            id="username"
-            type="text"
-            placeholder="nome de usuário"
-            value={username}
-            onChange={(e) => setUsername(e.target.value)}
-          />
+    <div>
+        <img className="  w-full h-screen object-cover" src="/public/imagens/logo2.png" alt="" />
+        <div className="flex items-center justify-center h-screen w-full  absolute top-0 left-0 bg-white/55">
+            
+        <form onSubmit={handleSubmit} className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+            <h2 className="text-2xl mb-4 text-center">Login</h2>
+            {error && <p className="text-red-500 mb-4">{error}</p>}
+            <div className="mb-4">
+            <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="username">
+                Usuário
+            </label>
+            <input
+                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                id="username"
+                type="text"
+                placeholder="nome de usuário"
+                value={username}
+                onChange={(e) => setUsername(e.target.value)}
+            />
+            </div>
+            <div className="mb-6">
+            <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="password">
+                Senha
+            </label>
+            <input
+                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                id="password"
+                type="password"
+                placeholder="********"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+            />
+            </div>
+            <div className="flex items-center justify-between">
+            <button
+                className="bg-[#001b5e] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                type="submit"
+                >
+                Entrar
+            </button>
+            </div>
+        </form>
         </div>
-        <div className="mb-6">
-          <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="password">
-            Senha
-          </label>
-          <input
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
-            id="password"
-            type="password"
-            placeholder="********"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-          />
-        </div>
-        <div className="flex items-center justify-between">
-          <button
-            className="bg-[#001b5e] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-            type="submit"
-          >
-            Entrar
-          </button>
-        </div>
-      </form>
     </div>
   );
 };
