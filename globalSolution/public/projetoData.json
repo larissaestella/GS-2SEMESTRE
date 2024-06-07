@@ -1,0 +1,23 @@
+{
+    "oceans": [
+        { "id": 1, "name": "Atlantic Ocean", "plasticConcentration": "High", "value": 70 },
+        { "id": 2, "name": "Pacific Ocean", "plasticConcentration": "Moderate", "value": 50 },
+        { "id": 3, "name": "Indian Ocean", "plasticConcentration": "Low", "value": 30 }
+    ],
+    "escolaData": {
+        "nome_escola": "Escola Futuro Azul",
+        "fundos": 22.5,
+        "registro_vendas": [
+            {
+                "timestamp": "2024-06-07T00:02:53.435935",
+                "materiais_coletados": {
+                    "garrafas PET": 3.0,
+                    "sacolas plásticas": 5.0,
+                    "aluminio": 7.0
+                },
+                "preco_por_kg": 1.5,
+                "fundos": 22.5
+            }
+        ]
+    }
+}
